@@ -11,8 +11,8 @@ Suggest movies based on user ratings and preferences.
 
 ## Dataset
 Data files used:
-movies.csv: Contains information about movies (e.g., movieId, title, genres).
-ratings.csv: Contains user ratings with columns userId, movieId, rating, and timestamp.
+- movies.csv: Contains information about movies (e.g., movieId, title, genres).
+- ratings.csv: Contains user ratings with columns userId, movieId, rating, and timestamp.
 
 ## Project Structure
 ### Data Preprocessing: Cleans and prepares the dataset for analysis.
