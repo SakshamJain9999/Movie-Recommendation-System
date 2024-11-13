@@ -6,8 +6,8 @@ This project implements a movie recommendation system that suggests movies based
 The objective of this project is to create a recommendation system that can:
 
 Suggest movies based on user ratings and preferences.
-Provide interactive search capabilities for specific movie titles.
-Use machine learning techniques to improve recommendation accuracy.
+1. Provide interactive search capabilities for specific movie titles.
+2. Use machine learning techniques to improve recommendation accuracy.
 
 ## Dataset
 Data files used:
@@ -23,21 +23,21 @@ ratings.csv: Contains user ratings with columns userId, movieId, rating, and tim
 
 ## Key Components
 ### Data Cleaning:
-Removed special characters from movie titles using regular expressions.
-Cleaned data stored in a new column for efficient processing.
+1. Removed special characters from movie titles using regular expressions.
+2. Cleaned data stored in a new column for efficient processing.
 
 ### TF-IDF Vectorization:
-Implemented TF-IDF on movie titles for textual similarity.
-Supports n-gram modeling for better search and recommendation accuracy.
+1. Implemented TF-IDF on movie titles for textual similarity.
+2. Supports n-gram modeling for better search and recommendation accuracy.
 
 ### Similarity Search Function:
-Calculates cosine similarity between user-inputted title and movie dataset.
-Finds the top 5 most similar movies based on title similarity.
+1. Calculates cosine similarity between user-inputted title and movie dataset.
+2. Finds the top 5 most similar movies based on title similarity.
 
 ### User-based Recommendations:
-Identifies similar users based on movie ratings.
-Recommends movies frequently rated highly by similar users.
+1. Identifies similar users based on movie ratings.
+2. Recommends movies frequently rated highly by similar users.
 
 ### Recommendation Scoring:
-Calculates recommendation scores based on user ratings and similarity.
-Combines similar user preferences with general user popularity for weighted recommendations.
+1. Calculates recommendation scores based on user ratings and similarity.
+2. Combines similar user preferences with general user popularity for weighted recommendations.
